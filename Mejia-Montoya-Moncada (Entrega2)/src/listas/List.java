@@ -16,6 +16,14 @@ public interface List<E> extends Iterable<E> {
     public void add(E target);
 
     /**
+     * Add target to the back of this List.
+     *
+     * @param index
+     * @param target
+     */
+    public void add(int index, E target);
+    
+    /**
      * Return true if some item in this List equals() target.
      *
      * @param target
