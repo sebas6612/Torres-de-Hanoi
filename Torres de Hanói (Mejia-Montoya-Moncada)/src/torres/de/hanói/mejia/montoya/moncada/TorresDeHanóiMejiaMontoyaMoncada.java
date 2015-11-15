@@ -18,4 +18,8 @@ public class TorresDeHanóiMejiaMontoyaMoncada {
         
     }
     
+    public void probar(){
+        int x = 0;
+    }
+    
 }
